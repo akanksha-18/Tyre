@@ -15,7 +15,7 @@ const TyreDealer = () => {
     { size: "175/65 R15", price: "₹3,500", reviews: 250 },
     { size: "185/70 R14", price: "₹3,800", reviews: 150 },
     { size: "195/60 R15", price: "₹4,000", reviews: 100 },
-    // Add more tyre objects as needed
+   
   ];
 
   // Function to load more items
@@ -25,7 +25,7 @@ const TyreDealer = () => {
 
   // Function to show fewer items
   const showLessItems = () => {
-    setVisibleItems(4); // Reset to initial number
+    setVisibleItems(4);
   };
 
   return (
